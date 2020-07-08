@@ -1,526 +1,940 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="">
-  <!--<![endif]-->
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Sedna - A Free HTML5/CSS3 website</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
-    <link rel="stylesheet" href="css/normalize.min.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/jquery.fancybox.css" />
-    <link rel="stylesheet" href="css/flexslider.css" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/queries.css" />
-    <link rel="stylesheet" href="css/etline-font.css" />
+    <title>eStartup Bootstrap Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicons -->
+    <link href="img/favicon.png" rel="icon" />
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
     <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i"
       rel="stylesheet"
-      href="bower_components/animate.css/animate.min.css"
     />
+
+    <!-- Bootstrap css -->
+    <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Libraries CSS Files -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
     <link
+      href="lib/owlcarousel/assets/owl.theme.default.min.css"
       rel="stylesheet"
-      href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
     />
-    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/modal-video/css/modal-video.min.css" rel="stylesheet" />
+
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet" />
   </head>
-  <body id="top">
-    <!--[if lt IE 8]>
-      <p class="browserupgrade">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="http://browsehappy.com/">upgrade your browser</a> to improve
-        your experience.
-      </p>
-    <![endif]-->
-    <section class="hero">
-      <section class="navigation">
-        <header>
-          <div class="header-content">
-            <!-- <div class="logo"><a href="#"><img src="" alt="Sedna logo"></a></div> -->
-            <div class="header-nav">
-              <nav>
-                <ul class="primary-nav">
-                  <li><a href="#features">Features</a></li>
-                  <li><a href="#assets">Assets</a></li>
-                  <li><a href="#blog">Blog</a></li>
-                  <li><a href="#download">Download</a></li>
-                </ul>
-                <ul class="member-actions">
-                  <li><a href="#download" class="login">Log in</a></li>
-                  <li>
-                    <a href="#download" class="btn-white btn-small">Sign up</a>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-            <div class="navicon">
-              <a class="nav-toggle" href="#"><span></span></a>
-            </div>
-          </div>
-        </header>
-      </section>
+
+  <body>
+    <header id="header" class="header header-hide">
       <div class="container">
-        <div class="row">
-          <div class="col-md-10 col-md-offset-1">
-            <div class="hero-content text-center">
-              <h1>Design, collaborate, win!</h1>
-              <p class="intro">
-                Introducing “Sedna”. A responsive one page website, designed &
-                developed exclusively for Codrops.
-              </p>
-              <a href="#" class="btn btn-fill btn-large btn-margin-right"
-                >Download</a
-              >
-              <a href="#" class="btn btn-accent btn-large">Learn more</a>
-            </div>
-          </div>
+        <div id="logo" class="pull-left">
+          <h1>
+            <a href="#body" class="scrollto"><span>e</span>Startup</a>
+          </h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
         </div>
-      </div>
-      <div class="down-arrow floating-arrow">
-        <a href="#"><i class="fa fa-angle-down"></i></a>
-      </div>
-    </section>
-    <section class="intro section-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 intro-feature">
-            <div class="intro-icon">
-              <span data-icon="&#xe033;" class="icon"></span>
-            </div>
-            <div class="intro-content">
-              <h5>Easily Customised</h5>
-              <p>
-                Easily customise Sedna to suit your start up, portfolio or
-                product. Take advantage of the layered Sketch file and bring
-                your product to life.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4 intro-feature">
-            <div class="intro-icon">
-              <span data-icon="&#xe030;" class="icon"></span>
-            </div>
-            <div class="intro-content">
-              <h5>Modern Design</h5>
-              <p>
-                Designed with modern trends and techniques in mind, Sedna will
-                help your product stand out in an already saturated market.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4 intro-feature">
-            <div class="intro-icon">
-              <span data-icon="&#xe046;" class="icon"></span>
-            </div>
-            <div class="intro-content last">
-              <h5>Responsive Development</h5>
-              <p>
-                Built using the latest web technologies like html5, css3, and
-                jQuery, rest assured Sedna will look smashing on every device
-                under the sun.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="features section-padding" id="features">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-5 col-md-offset-7">
-            <div class="feature-list">
-              <h3>Sedna will drive your product forward</h3>
-              <p>
-                Present your product, start up, or portfolio in a beautifully
-                modern way. Turn your visitors in to clients.
-              </p>
-              <ul class="features-stack">
-                <li class="feature-item">
-                  <div class="feature-icon">
-                    <span data-icon="&#xe03e;" class="icon"></span>
-                  </div>
-                  <div class="feature-content">
-                    <h5>Universal & Responsive</h5>
-                    <p>
-                      Sedna is universal and will look smashing on any device.
-                    </p>
-                  </div>
-                </li>
-                <li class="feature-item">
-                  <div class="feature-icon">
-                    <span data-icon="&#xe040;" class="icon"></span>
-                  </div>
-                  <div class="feature-content">
-                    <h5>User Centric Design</h5>
-                    <p>
-                      Sedna takes advantage of common design patterns, allowing
-                      for a seamless experience for users of all levels.
-                    </p>
-                  </div>
-                </li>
-                <li class="feature-item">
-                  <div class="feature-icon">
-                    <span data-icon="&#xe03c;" class="icon"></span>
-                  </div>
-                  <div class="feature-content">
-                    <h5>Clean reusable code</h5>
-                    <p>
-                      Download and re-use the Sedna open source code for any
-                      other project you like.
-                    </p>
-                  </div>
-                </li>
+
+        <nav id="nav-menu-container">
+          <ul class="nav-menu">
+            <li class="menu-active"><a href="#hero">Home</a></li>
+            <li><a href="#about-us">About</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#screenshots">Screenshots</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li class="menu-has-children">
+              <a href="">Drop Down</a>
+              <ul>
+                <li><a href="#">Drop Down 1</a></li>
+                <li><a href="#">Drop Down 3</a></li>
+                <li><a href="#">Drop Down 4</a></li>
+                <li><a href="#">Drop Down 5</a></li>
               </ul>
+            </li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <!-- #nav-menu-container -->
+      </div>
+    </header>
+    <!-- #header -->
+
+    <!--==========================
+    Hero Section
+  ============================-->
+    <section id="hero" class="wow fadeIn">
+      <div class="hero-container">
+        <h1 style=>Welcome to eStartups</h1>
+        <h2>Elegant Bootstrap Template for Startups, Apps &amp; more...</h2>
+        <img src="img/hero-img.png" alt="Hero Imgs" />
+        <a href="#get-started" class="btn-get-started scrollto">Get Started</a>
+        <div class="btns">
+          <a href="#"><i class="fa fa-apple fa-3x"></i> App Store</a>
+          <a href="#"><i class="fa fa-play fa-3x"></i> Google Play</a>
+          <a href="#"><i class="fa fa-windows fa-3x"></i> windows</a>
+        </div>
+      </div>
+    </section>
+    <!-- #hero -->
+
+    <!--==========================
+    Get Started Section
+  ============================-->
+    <section id="get-started" class="padd-section text-center wow fadeInUp">
+      <div class="container">
+        <div class="section-title text-center">
+          <h2>simple systeme fordiscount</h2>
+          <p class="separator">Integer cursus bibendum augue ac cursus .</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-block">
+              <img src="img/svg/cloud.svg" alt="img" class="img-fluid" />
+              <h4>introducing whatsapp</h4>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry
+              </p>
+              <a href="#">read more</a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-block">
+              <img src="img/svg/planet.svg" alt="img" class="img-fluid" />
+              <h4>user friendly interface</h4>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry
+              </p>
+              <a href="#">read more</a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-block">
+              <img src="img/svg/asteroid.svg" alt="img" class="img-fluid" />
+              <h4>build the app everyone love</h4>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry
+              </p>
+              <a href="#">read more</a>
             </div>
           </div>
         </div>
       </div>
-      <div class="device-showcase">
-        <div class="devices">
-          <div class="ipad-wrap wp1"></div>
-          <div class="iphone-wrap wp2"></div>
-        </div>
-      </div>
-      <div class="responsive-feature-img">
-        <img src="img/devices.png" alt="responsive devices" />
-      </div>
     </section>
-    <section class="features-extra section-padding" id="assets">
+
+    <!--==========================
+    About Us Section
+  ============================-->
+    <section id="about-us" class="about-us padd-section wow fadeInUp">
       <div class="container">
-        <div class="row">
-          <div class="col-md-5">
-            <div class="feature-list">
-              <h3>Designed with Sketch!</h3>
+        <div class="row justify-content-center">
+          <div class="col-md-5 col-lg-3">
+            <img src="img/about-img.png" alt="About" />
+          </div>
+
+          <div class="col-md-7 col-lg-5">
+            <div class="about-content">
+              <h2><span>eStartup</span>UI Design Mobile</h2>
               <p>
-                Easily change/switch/swap every placeholder inside every image
-                on Sedna with the included Sketch files. You’ll have this
-                template customised to suit your business in no time!
+                Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat
               </p>
-              <p>
-                Nam vehicula malesuada lectus, interdum fringilla nibh. Duis
-                aliquam vitae metus a pharetra. Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit. Donec fermentum augue quis augue
-                ornare, eget faucibus felis pharetra. Proin condimentum et leo
-                quis fringilla.
-              </p>
-              <a href="#" class="btn btn-ghost btn-accent btn-small"
-                >What's Sketch?</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="macbook-wrap wp3"></div>
-      <div class="responsive-feature-img">
-        <img src="img/macbook-pro.png" alt="responsive devices" />
-      </div>
-    </section>
-    <section class="hero-strip section-padding">
-      <div class="container">
-        <div class="col-md-12 text-center">
-          <h2>
-            Customise Sedna with the included
-            <span class="sketch">Sketch <i class="version">3</i></span> file
-          </h2>
-          <p>
-            Change/swap/edit every aspect of Sedna before you hit development
-            with the included Sketch file.
-          </p>
-          <a href="#" class="btn btn-ghost btn-accent btn-large"
-            >Download now!</a
-          >
-          <div class="logo-placeholder floating-logo">
-            <img src="img/sketch-logo.png" alt="Sketch Logo" />
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="blog-intro section-padding" id="blog">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h3>Showcase your smashing product with Sedna</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
-            <h5>EXCLUSIVE TO CODROPS</h5>
-            <p>
-              Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-          </div>
-          <div class="col-md-6 col-sm-12 col-xs-12 rightcol">
-            <h5>SPREADING PIXELS AROUND THE WORLD</h5>
-            <p>
-              Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="blog text-center">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-4">
-            <article class="blog-post">
-              <figure>
-                <a href="img/blog-img-01.jpg" class="single_image">
-                  <div class="blog-img-wrap">
-                    <div class="overlay">
-                      <i class="fa fa-search"></i>
-                    </div>
-                    <img src="img/blog-img-01.jpg" alt="Sedna blog image" />
-                  </div>
-                </a>
-                <figcaption>
-                  <h2>
-                    <a
-                      href="#"
-                      class="blog-category"
-                      data-toggle="tooltip"
-                      data-placement="top"
-                      data-original-title="See more posts"
-                      >Product</a
-                    >
-                  </h2>
-                  <p>
-                    <a href="#" class="blog-post-title"
-                      >Getting started with Sedna
-                      <i class="fa fa-angle-right"></i
-                    ></a>
-                  </p>
-                </figcaption>
-              </figure>
-            </article>
-          </div>
-          <div class="col-md-4">
-            <article class="blog-post">
-              <figure>
-                <a href="img/blog-img-02.jpg" class="single_image">
-                  <div class="blog-img-wrap">
-                    <div class="overlay">
-                      <i class="fa fa-search"></i>
-                    </div>
-                    <img src="img/blog-img-02.jpg" alt="Sedna blog image" />
-                  </div>
-                </a>
-                <figcaption>
-                  <h2>
-                    <a
-                      href="#"
-                      class="blog-category"
-                      data-toggle="tooltip"
-                      data-placement="top"
-                      data-original-title="See more posts"
-                      >Technology</a
-                    >
-                  </h2>
-                  <p>
-                    <a href="#" class="blog-post-title"
-                      >Why IE8 support is deminishing
-                      <i class="fa fa-angle-right"></i
-                    ></a>
-                  </p>
-                </figcaption>
-              </figure>
-            </article>
-          </div>
-          <div class="col-md-4">
-            <article class="blog-post">
-              <figure>
-                <a href="img/blog-img-03.jpg" class="single_image">
-                  <div class="blog-img-wrap">
-                    <div class="overlay">
-                      <i class="fa fa-search"></i>
-                    </div>
-                    <img
-                      src="img/blog-img-03.jpg"
-                      class="single_image"
-                      alt="Sedna blog image"
-                    />
-                  </div>
-                </a>
-                <figcaption>
-                  <h2>
-                    <a
-                      href="#"
-                      class="blog-category"
-                      data-toggle="tooltip"
-                      data-placement="top"
-                      data-original-title="See more posts"
-                      >Product</a
-                    >
-                  </h2>
-                  <p>
-                    <a href="#" class="blog-post-title"
-                      >Sedna tutorial: How to begin your
-                      <i class="fa fa-angle-right"></i
-                    ></a>
-                  </p>
-                </figcaption>
-              </figure>
-            </article>
-          </div>
-          <a href="#" class="btn btn-ghost btn-accent btn-small">More news</a>
-        </div>
-      </div>
-    </section>
-    <section class="testimonial-slider section-padding text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="flexslider">
-              <ul class="slides">
-                <li>
-                  <div class="avatar">
-                    <img src="img/avatar.jpg" alt="Sedna Testimonial Avatar" />
-                  </div>
-                  <h2>"Lorem ipsum dolor sit amet, nullam lucia nisi."</h2>
-                  <p class="author">Peter Finlan, Product Designer.</p>
-                </li>
-                <li>
-                  <div class="avatar">
-                    <img src="img/mani.jpg" alt="Sedna Testimonial Avatar" />
-                  </div>
-                  <h2>"Nunc vel maximus purus. Nullam ac urna ornare."</h2>
-                  <p class="author">Manoela Ilic, Founder @ Codrops.</p>
-                </li>
-                <li>
-                  <div class="avatar">
-                    <img src="img/130.jpg" alt="Sedna Testimonial Avatar" />
-                  </div>
-                  <h2>
-                    "Nullam ac urna ornare, ultrices nisl ut, lacinia nisi."
-                  </h2>
-                  <p class="author">Blaz Robar, Pixel Guru</p>
-                </li>
+
+              <ul class="list-unstyled">
+                <li><i class="fa fa-angle-right"></i>Creative Design</li>
+                <li><i class="fa fa-angle-right"></i>Retina Ready</li>
+                <li><i class="fa fa-angle-right"></i>Easy to Use</li>
+                <li><i class="fa fa-angle-right"></i>Unlimited Features</li>
+                <li><i class="fa fa-angle-right"></i>Unlimited Features</li>
               </ul>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="sign-up section-padding text-center" id="download">
+
+    <!--==========================
+    Features Section
+  ============================-->
+
+    <section id="features" class="padd-section text-center wow fadeInUp">
       <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3">
-            <h3>Get started with Sedna, absolutely free</h3>
-            <p>Grab your copy today, exclusively from Codrops</p>
-            <form class="signup-form" action="#" method="POST" role="form">
-              <div class="form-input-group">
-                <i class="fa fa-envelope"></i
-                ><input
-                  type="text"
-                  class=""
-                  placeholder="Enter your email"
-                  required
-                />
-              </div>
-              <div class="form-input-group">
-                <i class="fa fa-lock"></i
-                ><input
-                  type="text"
-                  class=""
-                  placeholder="Enter your password"
-                  required
-                />
-              </div>
-              <button type="submit" class="btn-fill sign-up-btn">
-                Sign up for free
-              </button>
-            </form>
-          </div>
+        <div class="section-title text-center">
+          <h2>Amazing Features.</h2>
+          <p class="separator">Integer cursus bibendum augue ac cursus .</p>
         </div>
       </div>
-    </section>
-    <section class="to-top">
+
       <div class="container">
         <div class="row">
-          <div class="to-top-wrap">
-            <a href="#top" class="top"><i class="fa fa-angle-up"></i></a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-7">
-            <div class="footer-links">
-              <ul class="footer-group">
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Sign up</a></li>
-                <li>
-                  <a href="http://tympanus.net/codrops/licensing/">Licence</a>
-                </li>
-                <li><a href="http://tympanus.net/codrops/">Codrops</a></li>
-                <li><a href="http://www.dribbble.com/">Dribbble</a></li>
-              </ul>
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-block">
+              <img
+                src="img/svg/paint-palette.svg"
+                alt="img"
+                class="img-fluid"
+              />
+              <h4>creative design</h4>
               <p>
-                Copyright © 2015 <a href="#">Sedna</a><br />
-                <a href="http://tympanus.net/codrops/licensing/">Licence</a> |
-                Crafted with <span class="fa fa-heart pulse2"></span> for
-                <a href="https://tympanus.net/codrops/">Codrops</a>.
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry
               </p>
             </div>
           </div>
-          <div class="social-share">
-            <p>Share Sedna with your friends</p>
-            <a href="#" class="twitter-share"><i class="fa fa-twitter"></i></a>
-            <a href="#" class="facebook-share"
-              ><i class="fa fa-facebook"></i
+
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-block">
+              <img src="img/svg/vector.svg" alt="img" class="img-fluid" />
+              <h4>Retina Ready</h4>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-block">
+              <img src="img/svg/design-tool.svg" alt="img" class="img-fluid" />
+              <h4>easy to use</h4>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-block">
+              <img src="img/svg/asteroid.svg" alt="img" class="img-fluid" />
+              <h4>Free Updates</h4>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-block">
+              <img src="img/svg/asteroid.svg" alt="img" class="img-fluid" />
+              <h4>Free Updates</h4>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-block">
+              <img
+                src="img/svg/cloud-computing.svg"
+                alt="img"
+                class="img-fluid"
+              />
+              <h4>App store support</h4>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-block">
+              <img src="img/svg/pixel.svg" alt="img" class="img-fluid" />
+              <h4>Perfect Pixel</h4>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-block">
+              <img src="img/svg/code.svg" alt="img" class="img-fluid" />
+              <h4>clean codes</h4>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==========================
+    Screenshots Section
+  ============================-->
+    <section id="screenshots" class="padd-section text-center wow fadeInUp">
+      <div class="container">
+        <div class="section-title text-center">
+          <h2>App Gallery</h2>
+          <p class="separator">Integer cursus bibendum augue ac cursus .</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="owl-carousel owl-theme">
+          <div><img src="img/screen/1.jpg" alt="img" /></div>
+          <div><img src="img/screen/2.jpg" alt="img" /></div>
+          <div><img src="img/screen/3.jpg" alt="img" /></div>
+          <div><img src="img/screen/4.jpg" alt="img" /></div>
+          <div><img src="img/screen/5.jpg" alt="img" /></div>
+          <div><img src="img/screen/6.jpg" alt="img" /></div>
+          <div><img src="img/screen/7.jpg" alt="img" /></div>
+          <div><img src="img/screen/8.jpg" alt="img" /></div>
+          <div><img src="img/screen/9.jpg" alt="img" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!--==========================
+    Video Section
+  ============================-->
+
+    <section id="video" class="text-center wow fadeInUp">
+      <div class="overlay">
+        <div class="container-fluid container-full">
+          <div class="row">
+            <a
+              href="#"
+              class="js-modal-btn play-btn"
+              data-video-id="s22ViV7tBKE"
             ></a>
           </div>
         </div>
       </div>
+    </section>
+
+    <!--==========================
+    Team Section
+  ============================-->
+    <section id="team" class="padd-section text-center wow fadeInUp">
+      <div class="container">
+        <div class="section-title text-center">
+          <h2>Team Member</h2>
+          <p class="separator">Integer cursus bibendum augue ac cursus .</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-4 col-lg-3">
+            <div class="team-block bottom">
+              <img src="img/team/1.jpg" class="img-responsive" alt="img" />
+              <div class="team-content">
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                  </li>
+                </ul>
+                <span>manager</span>
+                <h4>Kimberly Tran</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-md-4 col-lg-3">
+            <div class="team-block bottom">
+              <img src="img/team/2.jpg" class="img-responsive" alt="img" />
+              <div class="team-content">
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                  </li>
+                </ul>
+                <span>manager</span>
+                <h4>Kimberly Tran</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-md-4 col-lg-3">
+            <div class="team-block bottom">
+              <img src="img/team/3.jpg" class="img-responsive" alt="img" />
+              <div class="team-content">
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                  </li>
+                </ul>
+                <span>manager</span>
+                <h4>Kimberly Tran</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-md-4 col-lg-3">
+            <div class="team-block bottom">
+              <img src="img/team/4.jpg" class="img-responsive" alt="img" />
+              <div class="team-content">
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                  </li>
+                </ul>
+                <span>manager</span>
+                <h4>Kimberly Tran</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==========================
+    Testimonials Section
+  ============================-->
+
+    <section id="testimonials" class="padd-section text-center wow fadeInUp">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="testimonials-content">
+              <div
+                id="carousel-example-generic"
+                class="carousel slide"
+                data-ride="carousel"
+              >
+                <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item active">
+                    <div class="top-top">
+                      <h2>Our Users Speack volumes us</h2>
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and
+                        scrambled it to make a type specimen book. It has
+                        survived not only five centuries.
+                      </p>
+                      <h4>Kimberly Tran<span>manager</span></h4>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="top-top">
+                      <h2>Our Users Speack volumes us</h2>
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and
+                        scrambled it to make a type specimen book. It has
+                        survived not only five centuries.
+                      </p>
+                      <h4>Henderson<span>manager</span></h4>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="top-top">
+                      <h2>Our Users Speack volumes us</h2>
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and
+                        scrambled it to make a type specimen book. It has
+                        survived not only five centuries.
+                      </p>
+                      <h4>David Spark<span>manager</span></h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="btm-btm">
+                  <ul class="list-unstyled carousel-indicators">
+                    <li
+                      data-target="#carousel-example-generic"
+                      data-slide-to="0"
+                      class="active"
+                    ></li>
+                    <li
+                      data-target="#carousel-example-generic"
+                      data-slide-to="1"
+                    ></li>
+                    <li
+                      data-target="#carousel-example-generic"
+                      data-slide-to="2"
+                    ></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==========================
+    Pricing Table Section
+  ============================-->
+    <section id="pricing" class="padd-section text-center wow fadeInUp">
+      <div class="container">
+        <div class="section-title text-center">
+          <h2>Meet With Price</h2>
+          <p class="separator">Integer cursus bibendum augue ac cursus .</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3">
+            <div class="block-pricing">
+              <div class="table">
+                <h4>basic</h4>
+                <h2>$29</h2>
+                <ul class="list-unstyled">
+                  <li><b>4 GB</b> Ram</li>
+                  <li><b>7/24</b> Tech Support</li>
+                  <li><b>40 GB</b> SSD Cloud Storage</li>
+                  <li>Monthly Backups</li>
+                  <li>Palo Protection</li>
+                </ul>
+                <div class="table_btn">
+                  <a href="#" class="btn"
+                    ><i class="fa fa-shopping-cart"></i> Buy Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="block-pricing">
+              <div class="table">
+                <h4>PERSONAL</h4>
+                <h2>$29</h2>
+                <ul class="list-unstyled">
+                  <li><b>4 GB</b> Ram</li>
+                  <li><b>7/24</b> Tech Support</li>
+                  <li><b>40 GB</b> SSD Cloud Storage</li>
+                  <li>Monthly Backups</li>
+                  <li>Palo Protection</li>
+                </ul>
+                <div class="table_btn">
+                  <a href="#" class="btn"
+                    ><i class="fa fa-shopping-cart"></i> Buy Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="block-pricing">
+              <div class="table">
+                <h4>BUSINESS</h4>
+                <h2>$29</h2>
+                <ul class="list-unstyled">
+                  <li><b>4 GB</b> Ram</li>
+                  <li><b>7/24</b> Tech Support</li>
+                  <li><b>40 GB</b> SSD Cloud Storage</li>
+                  <li>Monthly Backups</li>
+                  <li>Palo Protection</li>
+                </ul>
+                <div class="table_btn">
+                  <a href="#" class="btn"
+                    ><i class="fa fa-shopping-cart"></i> Buy Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="block-pricing">
+              <div class="table">
+                <h4>profeesional</h4>
+                <h2>$29</h2>
+                <ul class="list-unstyled">
+                  <li><b>4 GB</b> Ram</li>
+                  <li><b>7/24</b> Tech Support</li>
+                  <li><b>40 GB</b> SSD Cloud Storage</li>
+                  <li>Monthly Backups</li>
+                  <li>Palo Protection</li>
+                </ul>
+                <div class="table_btn">
+                  <a href="#" class="btn"
+                    ><i class="fa fa-shopping-cart"></i> Buy Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==========================
+    Blog Section
+  ============================-->
+    <section id="blog" class="padd-section wow fadeInUp">
+      <div class="container">
+        <div class="section-title text-center">
+          <h2>Latest posts</h2>
+          <p class="separator">Integer cursus bibendum augue ac cursus .</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="block-blog text-left">
+              <a href="#"><img src="img/blog/blog-image-1.jpg" alt="img" /></a>
+              <div class="content-blog">
+                <h4>
+                  <a href="#"
+                    >whats isthe difference between good and bat typography</a
+                  >
+                </h4>
+                <span>05, juin 2017</span>
+                <a class="pull-right readmore" href="#">read more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="block-blog text-left">
+              <a href="#"
+                ><img
+                  src="img/blog/blog-image-2.jpg"
+                  class="img-responsive"
+                  alt="img"
+              /></a>
+              <div class="content-blog">
+                <h4>
+                  <a href="#"
+                    >whats isthe difference between good and bat typography</a
+                  >
+                </h4>
+                <span>05, juin 2017</span>
+                <a class="pull-right readmore" href="#">read more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="block-blog text-left">
+              <a href="#"
+                ><img
+                  src="img/blog/blog-image-3.jpg"
+                  class="img-responsive"
+                  alt="img"
+              /></a>
+              <div class="content-blog">
+                <h4>
+                  <a href="#"
+                    >whats isthe difference between good and bat typography</a
+                  >
+                </h4>
+                <span>05, juin 2017</span>
+                <a class="pull-right readmore" href="#">read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==========================
+    Newsletter Section
+  ============================-->
+    <section id="newsletter" class="newsletter text-center wow fadeInUp">
+      <div class="overlay padd-section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-9 col-lg-6">
+              <form class="form-inline" method="POST" action="#">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Email Adress"
+                  name="email"
+                />
+                <button type="submit" class="btn btn-default">
+                  <i class="fa fa-location-arrow"></i>Subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-google-plus"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!--==========================
+    Contact Section
+  ============================-->
+    <section id="contact" class="padd-section wow fadeInUp">
+      <div class="container">
+        <div class="section-title text-center">
+          <h2>Contact</h2>
+          <p class="separator">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque
+          </p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-3 col-md-4">
+            <div class="info">
+              <div>
+                <i class="fa fa-map-marker"></i>
+                <p>A108 Adam Street<br />New York, NY 535022</p>
+              </div>
+
+              <div class="email">
+                <i class="fa fa-envelope"></i>
+                <p>info@example.com</p>
+              </div>
+
+              <div>
+                <i class="fa fa-phone"></i>
+                <p>+1 5589 55488 55s</p>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="google-plus"
+                ><i class="fa fa-google-plus"></i
+              ></a>
+              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-5 col-md-8">
+            <div class="form">
+              <div id="sendmessage">Your message has been sent. Thank you!</div>
+              <div id="errormessage"></div>
+              <form action="" method="post" role="form" class="contactForm">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="name"
+                    class="form-control"
+                    id="name"
+                    placeholder="Your Name"
+                    data-rule="minlen:4"
+                    data-msg="Please enter at least 4 chars"
+                  />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    id="email"
+                    placeholder="Your Email"
+                    data-rule="email"
+                    data-msg="Please enter a valid email"
+                  />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="subject"
+                    id="subject"
+                    placeholder="Subject"
+                    data-rule="minlen:4"
+                    data-msg="Please enter at least 8 chars of subject"
+                  />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    rows="5"
+                    data-rule="required"
+                    data-msg="Please write something for us"
+                    placeholder="Message"
+                  ></textarea>
+                  <div class="validation"></div>
+                </div>
+                <div class="text-center">
+                  <button type="submit">Send Message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- #contact -->
+
+    <!--==========================
+    Footer
+  ============================-->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-4">
+            <div class="footer-logo">
+              <a class="navbar-brand" href="#">eStartup</a>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-3 col-lg-2">
+            <div class="list-menu">
+              <h4>Abou Us</h4>
+
+              <ul class="list-unstyled">
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Features item</a></li>
+                <li><a href="#">Live streaming</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-3 col-lg-2">
+            <div class="list-menu">
+              <h4>Abou Us</h4>
+
+              <ul class="list-unstyled">
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Features item</a></li>
+                <li><a href="#">Live streaming</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-3 col-lg-2">
+            <div class="list-menu">
+              <h4>Support</h4>
+
+              <ul class="list-unstyled">
+                <li><a href="#">faq</a></li>
+                <li><a href="#">Editor help</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-3 col-lg-2">
+            <div class="list-menu">
+              <h4>Abou Us</h4>
+
+              <ul class="list-unstyled">
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Features item</a></li>
+                <li><a href="#">Live streaming</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyrights">
+        <div class="container">
+          <p>&copy; Copyright NamePending.</p>
+          <div class="credits" style="color: white;">
+            <a href="https://bootstrapmade.com/" style="color: white;"
+              >Designed By BoostrapMade</a
+            >
+          </div>
+        </div>
+      </div>
     </footer>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script>
-      window.jQuery ||
-        document.write(
-          '<script src="js/vendor/jquery-1.11.2.min.js"><\/script>'
-        );
-    </script>
-    <script src="bower_components/retina.js/dist/retina.js"></script>
-    <script src="js/jquery.fancybox.pack.js"></script>
-    <script src="js/vendor/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-    <script src="js/jquery.flexslider-min.js"></script>
-    <script src="bower_components/classie/classie.js"></script>
-    <script src="bower_components/jquery-waypoints/lib/jquery.waypoints.min.js"></script>
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-      (function (b, o, i, l, e, r) {
-        b.GoogleAnalyticsObject = l;
-        b[l] ||
-          (b[l] = function () {
-            (b[l].q = b[l].q || []).push(arguments);
-          });
-        b[l].l = +new Date();
-        e = o.createElement(i);
-        r = o.getElementsByTagName(i)[0];
-        e.src = "//www.google-analytics.com/analytics.js";
-        r.parentNode.insertBefore(e, r);
-      })(window, document, "script", "ga");
-      ga("create", "UA-XXXXX-X", "auto");
-      ga("send", "pageview");
-    </script>
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/superfish/hoverIntent.js"></script>
+    <script src="lib/superfish/superfish.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/modal-video/js/modal-video.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <!-- Contact Form JavaScript File -->
+    <script src="contactform/contactform.js"></script>
+
+    <!-- Template Main Javascript File -->
+    <script src="js/main.js"></script>
   </body>
 </html>
