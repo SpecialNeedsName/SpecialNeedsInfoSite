@@ -1,6 +1,6 @@
 /*
 	App by FreeHTML5.co
-	Twitter: http://twitter.com/fh5co
+	Twitter: http://twitter.com/test
 	URL: http://freehtml5.co
 */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800");
@@ -32,7 +32,7 @@ html {
   color: #234197 !important;
 }
 
-#fh5co-hero-wrapper {
+#test-hero-wrapper {
   height: 800px;
   width: 100%;
   background: url("../img/banner-bg.jpg") no-repeat center;
@@ -52,15 +52,15 @@ html {
 }
 .main-navbar-nav li {
   color: #fff;
-  opacity: .7;
+  opacity: 0.7;
 }
 .main-navbar-nav .navbar-nav .nav-item a:hover {
   color: #234197 !important;
-  -webkit-transition: all .33s ease;
-  -moz-transition: all .33s ease;
-  -o-transition: all .33s ease;
-  -ms-transition: all .33s ease;
-  transition: all .33s ease;
+  -webkit-transition: all 0.33s ease;
+  -moz-transition: all 0.33s ease;
+  -o-transition: all 0.33s ease;
+  -ms-transition: all 0.33s ease;
+  transition: all 0.33s ease;
 }
 .main-navbar-nav .active {
   color: #fff !important;
@@ -82,25 +82,25 @@ html {
 }
 
 .social-icons-header a:hover i {
-  opacity: .6;
-  -webkit-transition: all .2s ease;
-  -moz-transition: all .2s ease;
-  -o-transition: all .2s ease;
-  -ms-transition: all .2s ease;
-  transition: all .2s ease;
+  opacity: 0.6;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
-.fh5co-hero-inner {
+.test-hero-inner {
   margin-top: 110px;
   position: relative;
 }
-.fh5co-hero-inner > h1 {
+.test-hero-inner > h1 {
   color: #fff;
   font-weight: 300;
   font-size: 55px;
   letter-spacing: 2px;
 }
-.fh5co-hero-inner > p {
+.test-hero-inner > p {
   width: 400px;
   font-size: 14px;
   color: #fff;
@@ -108,13 +108,13 @@ html {
   margin-bottom: 30px;
   line-height: 2em;
 }
-.fh5co-hero-inner .download-btn-first {
+.test-hero-inner .download-btn-first {
   font-size: 15px;
   padding: 10px 15px;
   font-weight: 700;
   color: #234197;
 }
-.fh5co-hero-inner .features-btn-first {
+.test-hero-inner .features-btn-first {
   font-size: 15px;
   padding: 8px 13px;
   font-weight: 400;
@@ -122,7 +122,7 @@ html {
   color: #fff;
   margin-left: 10px;
 }
-.fh5co-hero-inner .fh5co-hero-smartphone {
+.test-hero-inner .test-hero-smartphone {
   position: absolute;
   right: 0px;
   top: 120px;
@@ -132,34 +132,34 @@ html {
 /* ==========================================================================================================
 										ADVANTAGES
    ========================================================================================================== */
-.fh5co-advantages-outer {
+.test-advantages-outer {
   padding: 70px;
   height: auto;
   width: 100%;
   overflow: hidden;
 }
-.fh5co-advantages-outer .span-perfect {
+.test-advantages-outer .span-perfect {
   color: #648cff;
   text-transform: uppercase;
   font-size: 27px;
   letter-spacing: 1px;
 }
-.fh5co-advantages-outer .span-features {
+.test-advantages-outer .span-features {
   text-transform: uppercase;
   font-size: 42px;
 }
-.fh5co-advantages-outer .second-title {
+.test-advantages-outer .second-title {
   text-align: center;
   display: block;
 }
-.fh5co-advantages-outer small {
+.test-advantages-outer small {
   display: block;
   text-align: center;
 }
-.fh5co-advantages-outer .fh5co-advantages-grid-columns {
+.test-advantages-outer .test-advantages-grid-columns {
   margin-top: 120px;
 }
-.fh5co-advantages-outer .fh5co-advantages-grid-columns .col-sm-4 .grid-image {
+.test-advantages-outer .test-advantages-grid-columns .col-sm-4 .grid-image {
   width: 30%;
   float: left;
   padding-right: 30px;
@@ -167,12 +167,12 @@ html {
   top: 1px;
   color: #648cff;
 }
-.fh5co-advantages-outer .fh5co-advantages-grid-columns .col-sm-4 .grid-title {
+.test-advantages-outer .test-advantages-grid-columns .col-sm-4 .grid-title {
   float: left;
   font-size: 20px;
   font-weight: 600;
 }
-.fh5co-advantages-outer .fh5co-advantages-grid-columns .col-sm-4 .grid-desc {
+.test-advantages-outer .test-advantages-grid-columns .col-sm-4 .grid-desc {
   float: right;
   font-size: 13px;
   padding-right: 7%;
@@ -182,7 +182,7 @@ html {
   line-height: 1.87em;
 }
 
-.fh5co-slider-inner {
+.test-slider-inner {
   margin-top: 50px;
   margin-bottom: 30px;
 }
@@ -190,12 +190,12 @@ html {
 /* ==========================================================================================================
 										SLIDER
    ========================================================================================================== */
-.fh5co-slider-outer {
+.test-slider-outer {
   width: 100%;
   height: auto;
   padding: 70px;
 }
-.fh5co-slider-outer h1 {
+.test-slider-outer h1 {
   color: #648cff;
   text-transform: uppercase;
   font-size: 30px;
@@ -203,28 +203,29 @@ html {
   margin-bottom: 10px;
   text-align: center;
 }
-.fh5co-slider-outer > h1, .fh5co-slider-outer small {
+.test-slider-outer > h1,
+.test-slider-outer small {
   text-align: center;
   display: block;
 }
-.fh5co-slider-outer .fh5co-slider-outer {
+.test-slider-outer .test-slider-outer {
   margin-top: 50px;
 }
-.fh5co-slider-outer .carousel-left-arrow {
+.test-slider-outer .carousel-left-arrow {
   position: absolute;
   left: -100px;
   bottom: 250px;
   font-size: 60px;
   color: #ececec;
 }
-.fh5co-slider-outer .carousel-right-arrow {
+.test-slider-outer .carousel-right-arrow {
   position: absolute;
   right: -100px;
   bottom: 250px;
   font-size: 60px;
   color: #ececec;
 }
-.fh5co-slider-outer .item img {
+.test-slider-outer .item img {
   height: 400px;
   width: 200px;
   object-fit: contain;
@@ -241,40 +242,40 @@ html {
   height: 300px;
 }
 
-.fh5co-features-outer {
+.test-features-outer {
   width: 100%;
   height: auto;
   margin-top: -180px;
 }
-.fh5co-features-outer .col-sm-6 {
+.test-features-outer .col-sm-6 {
   margin-top: 80px;
 }
-.fh5co-features-outer .col-sm-6 img {
+.test-features-outer .col-sm-6 img {
   height: 550px;
 }
-.fh5co-features-outer .sm-6-content {
+.test-features-outer .sm-6-content {
   margin-top: 250px;
   position: relative;
 }
-.fh5co-features-outer .sm-6-content h1 {
+.test-features-outer .sm-6-content h1 {
   color: #648cff;
   text-transform: uppercase;
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 20px;
 }
-.fh5co-features-outer .sm-6-content p {
+.test-features-outer .sm-6-content p {
   color: #111;
   font-weight: 500;
   font-size: 14.5px;
   line-height: 1.8em;
   width: 450px;
 }
-.fh5co-features-outer .col-sm-6 .col-sm-image-container {
+.test-features-outer .col-sm-6 .col-sm-image-container {
   position: relative;
   width: 300px;
 }
-.fh5co-features-outer .col-sm-6 .span-new {
+.test-features-outer .col-sm-6 .span-new {
   color: #fff;
   background: #fcec64;
   padding: 18px;
@@ -291,7 +292,7 @@ html {
   right: 0;
   top: 140px;
 }
-.fh5co-features-outer .col-sm-6 .span-free {
+.test-features-outer .col-sm-6 .span-free {
   color: #fff;
   background: #6ca3ff;
   padding: 18px;
@@ -308,7 +309,7 @@ html {
   bottom: -430px;
   font-weight: 700;
 }
-.fh5co-features-outer .col-sm-6 .span-data {
+.test-features-outer .col-sm-6 .span-data {
   color: #7e8c91;
   background: #b8faee;
   padding: 20px;
@@ -326,7 +327,7 @@ html {
   right: -2px;
   font-weight: 700;
 }
-.fh5co-features-outer .col-sm-6 .span-percent {
+.test-features-outer .col-sm-6 .span-percent {
   color: #fff;
   background: #6ca3ff;
   padding: 18px;
@@ -343,7 +344,7 @@ html {
   bottom: -430px;
   font-weight: 700;
 }
-.fh5co-features-outer .col-sm-6 .circle {
+.test-features-outer .col-sm-6 .circle {
   color: #c3cfe5;
   border: 1px solid #ededed;
   background: #fff;
@@ -360,7 +361,7 @@ html {
   font-weight: 600;
   box-shadow: 0 0 0 5px #f9f9f9;
 }
-.fh5co-features-outer .col-sm-6 .circle-first {
+.test-features-outer .col-sm-6 .circle-first {
   width: 35px;
   display: inline-block;
   line-height: 30px;
@@ -373,7 +374,7 @@ html {
   margin-left: 0px;
   font-weight: 600;
 }
-.fh5co-features-outer .col-sm-6 .circle-middle {
+.test-features-outer .col-sm-6 .circle-middle {
   width: 35px;
   display: inline-block;
   line-height: 30px;
@@ -386,7 +387,7 @@ html {
   margin-left: 50px;
   font-weight: 600;
 }
-.fh5co-features-outer .col-sm-6 .circle-last {
+.test-features-outer .col-sm-6 .circle-last {
   width: 35px;
   display: inline-block;
   line-height: 30px;
@@ -403,16 +404,16 @@ html {
 /* ==========================================================================================================
 										REVIEWS
    ========================================================================================================== */
-.fh5co-reviews-outer {
+.test-reviews-outer {
   width: 100%;
   height: 400px;
   padding: 70px;
   margin-top: 100px;
 }
-.fh5co-reviews-outer .fh5co-reviews-inner {
+.test-reviews-outer .test-reviews-inner {
   margin-top: 100px;
 }
-.fh5co-reviews-outer > h1 {
+.test-reviews-outer > h1 {
   color: #648cff;
   text-transform: uppercase;
   font-size: 30px;
@@ -420,49 +421,49 @@ html {
   margin-bottom: 10px;
   text-align: center;
 }
-.fh5co-reviews-outer > small {
+.test-reviews-outer > small {
   text-align: center;
   display: block;
 }
-.fh5co-reviews-outer .testimonial-desc {
+.test-reviews-outer .testimonial-desc {
   clear: both;
   padding-top: 30px;
   font-weight: 500;
 }
-.fh5co-reviews-outer .testimonial-2 {
+.test-reviews-outer .testimonial-2 {
   margin-left: 50px;
 }
 
 /* ==========================================================================================================
 										BOTTOM
    ========================================================================================================== */
-.fh5co-bottom-outer {
+.test-bottom-outer {
   width: 100%;
   height: 572px;
   background: url("../img/download-section-bg.jpg") no-repeat center;
   margin-top: 120px;
   overflow-x: hidden;
 }
-.fh5co-bottom-outer .fh5co-bottom-inner {
+.test-bottom-outer .test-bottom-inner {
   margin-top: 270px;
 }
-.fh5co-bottom-outer .fh5co-bottom-inner .col-sm-6 h1 {
+.test-bottom-outer .test-bottom-inner .col-sm-6 h1 {
   color: #fff;
   text-transform: uppercase;
   font-size: 30px;
   margin-bottom: 30px;
 }
-.fh5co-bottom-outer .fh5co-bottom-inner .col-sm-6 p {
+.test-bottom-outer .test-bottom-inner .col-sm-6 p {
   width: 350px;
   color: #fff;
   font-size: 14.5px;
   line-height: 1.85em;
 }
-.fh5co-bottom-outer .fh5co-bottom-inner .col-sm-6 img {
+.test-bottom-outer .test-bottom-inner .col-sm-6 img {
   margin-top: 25px;
 }
 
-   /* ==========================================================================================================
+/* ==========================================================================================================
 										SUB FOOTER
    ========================================================================================================== */
 .img-float-left {
@@ -489,12 +490,12 @@ html {
   font-size: 20px;
 }
 .footer-outer .social-icons-footer a:hover i {
-  opacity: .6;
-  -webkit-transition: all .2s ease;
-  -moz-transition: all .2s ease;
-  -o-transition: all .2s ease;
-  -ms-transition: all .2s ease;
-  transition: all .2s ease;
+  opacity: 0.6;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 .footer-outer .footer-three-grid {
   width: 1140px;
@@ -531,9 +532,9 @@ html {
 .footer-outer .column-3-3 .social-icons-header a:hover {
   color: #fff;
   opacity: 1;
-  -webkit-transition: color .2s ease;
-  -o-transition: color .2s ease;
-  transition: color .2s ease;
+  -webkit-transition: color 0.2s ease;
+  -o-transition: color 0.2s ease;
+  transition: color 0.2s ease;
 }
 .footer-outer .footer-nav ul {
   list-style: none;
@@ -548,9 +549,9 @@ html {
 }
 .footer-outer .footer-nav ul li:hover {
   color: #fff;
-  -webkit-transition: color .2s ease-in-out;
-  -o-transition: color .2s ease-in-out;
-  transition: color .2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
 }
 .footer-outer .footer-nav ul .active {
   color: #fff;
@@ -578,6 +579,16 @@ html {
   margin-left: 10px;
 }
 
+.popoutImage {
+  border-color: #234197;
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  border-radius: 25px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+}
+
 /* ==========================================================================================================
                                        RESPONSIVE STYLING
   ========================================================================================================== */
@@ -586,7 +597,7 @@ html {
     overflow-x: hidden;
   }
 
-  .fh5co-hero-inner .fh5co-hero-smartphone {
+  .test-hero-inner .test-hero-smartphone {
     position: absolute;
     right: 50px;
     top: 200px;
@@ -606,7 +617,7 @@ html {
     overflow-x: hidden;
   }
 
-  .fh5co-hero-inner .fh5co-hero-smartphone {
+  .test-hero-inner .test-hero-smartphone {
     position: absolute;
     right: -15px;
     top: 200px;
@@ -618,15 +629,15 @@ html {
     overflow-x: hidden;
   }
 
-  #fh5co-hero-wrapper {
+  #test-hero-wrapper {
     height: 95vh;
   }
 
-  .fh5co-hero-inner {
+  .test-hero-inner {
     margin-top: 30px;
   }
 
-  .fh5co-hero-inner .fh5co-hero-smartphone {
+  .test-hero-inner .test-hero-smartphone {
     position: absolute;
     left: 0;
     right: 0;
@@ -637,12 +648,12 @@ html {
     margin-top: 110px;
   }
 
-  .fh5co-advantages-outer {
+  .test-advantages-outer {
     margin-top: 50px;
     padding-bottom: 0;
   }
 
-  .fh5co-advantages-outer .fh5co-advantages-grid-columns .col-sm-4 .grid-image {
+  .test-advantages-outer .test-advantages-grid-columns .col-sm-4 .grid-image {
     width: 60px;
     float: none;
     display: block;
@@ -653,26 +664,26 @@ html {
     top: 1px;
   }
 
-  .fh5co-advantages-outer .fh5co-advantages-grid-columns .col-sm-4 .grid-title {
+  .test-advantages-outer .test-advantages-grid-columns .col-sm-4 .grid-title {
     float: none;
     text-align: center;
   }
 
-  .fh5co-advantages-outer .fh5co-advantages-grid-columns .col-sm-4 .grid-desc {
+  .test-advantages-outer .test-advantages-grid-columns .col-sm-4 .grid-desc {
     float: none;
     width: 100%;
     text-align: center;
   }
 
-  .fh5co-slider-outer .fh5co-slider-outer {
+  .test-slider-outer .test-slider-outer {
     margin-top: 0px;
   }
 
-  .fh5co-features-outer {
+  .test-features-outer {
     margin-top: -100px;
   }
 
-  .fh5co-features-outer .sm-6-content p {
+  .test-features-outer .sm-6-content p {
     width: 100%;
   }
 
@@ -686,7 +697,7 @@ html {
   }
 }
 @media screen and (max-width: 993px) {
-  .fh5co-features-grid-columns .col-sm-6 {
+  .test-features-grid-columns .col-sm-6 {
     -ms-flex: 0 0 50%;
     flex: 0 0 100%;
     width: 100%;
@@ -695,7 +706,7 @@ html {
     text-align: center;
   }
 
-  .fh5co-features-outer .col-sm-6 .col-sm-image-container {
+  .test-features-outer .col-sm-6 .col-sm-image-container {
     position: relative;
     width: 295px !important;
     text-align: center;
@@ -706,7 +717,7 @@ html {
     float: none !important;
   }
 
-  .fh5co-slider-outer .carousel-right-arrow {
+  .test-slider-outer .carousel-right-arrow {
     position: absolute;
     right: -70px;
     bottom: 250px;
@@ -714,7 +725,7 @@ html {
     color: #ececec;
   }
 
-  .fh5co-slider-outer .carousel-left-arrow {
+  .test-slider-outer .carousel-left-arrow {
     position: absolute;
     left: -70px;
     bottom: 250px;
@@ -730,41 +741,42 @@ html {
     float: none;
   }
 
-  .fh5co-features-outer .col-sm-6 .span-percent, .fh5co-features-outer .col-sm-6 .span-free {
+  .test-features-outer .col-sm-6 .span-percent,
+  .test-features-outer .col-sm-6 .span-free {
     left: -15px;
     bottom: 140px;
   }
 
-  .fh5co-features-outer .col-sm-6 .span-new {
+  .test-features-outer .col-sm-6 .span-new {
     right: -10px;
   }
 
-  .fh5co-features-outer .col-sm-6 .span-data {
+  .test-features-outer .col-sm-6 .span-data {
     right: -15px;
   }
 
-  .fh5co-features-outer .col-sm-6 .circle {
+  .test-features-outer .col-sm-6 .circle {
     position: static;
     display: inline-block;
     margin: 25px 5px;
   }
 
-  .fh5co-advantages-outer .second-title {
+  .test-advantages-outer .second-title {
     margin-top: 60px;
   }
 
-  .fh5co-features-grid-columns {
+  .test-features-grid-columns {
     display: flex;
     flex-direction: column;
   }
-  .fh5co-features-grid-columns .in-order-4 {
+  .test-features-grid-columns .in-order-4 {
     order: 1;
   }
-  .fh5co-features-grid-columns .in-order-3 {
+  .test-features-grid-columns .in-order-3 {
     order: 2;
   }
 
-  .fh5co-reviews-outer {
+  .test-reviews-outer {
     padding: 0;
   }
 
@@ -785,22 +797,22 @@ html {
   }
 }
 @media screen and (max-width: 800px) {
-  .fh5co-hero-inner > h1 {
+  .test-hero-inner > h1 {
     color: #fff;
     font-weight: 300;
     font-size: 45px;
     letter-spacing: 2px;
   }
 
-  #fh5co-hero-wrapper {
+  #test-hero-wrapper {
     height: 800px;
   }
 
-  .fh5co-advantages-outer .fh5co-advantages-grid-columns {
+  .test-advantages-outer .test-advantages-grid-columns {
     margin-top: 40px;
   }
 
-  .fh5co-advantages-grid-columns .col-sm-4 {
+  .test-advantages-grid-columns .col-sm-4 {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     width: 100%;
@@ -809,41 +821,41 @@ html {
     text-align: center;
   }
 
-  .fh5co-hero-inner .fh5co-hero-smartphone {
+  .test-hero-inner .test-hero-smartphone {
     height: 420px;
     top: 310px;
   }
 
-  .fh5co-advantages-outer .second-title {
+  .test-advantages-outer .second-title {
     margin-top: 60px;
   }
 
-  .fh5co-bottom-outer {
+  .test-bottom-outer {
     margin-top: 40px;
     overflow: hidden;
   }
 
-  .fh5co-bottom-outer .fh5co-bottom-inner {
+  .test-bottom-outer .test-bottom-inner {
     margin-top: 50px;
   }
 
-  .fh5co-slider-outer {
+  .test-slider-outer {
     padding: 0;
   }
 
-  .fh5co-slider-outer .carousel-left-arrow {
+  .test-slider-outer .carousel-left-arrow {
     left: 50px;
     font-size: 50px;
     bottom: 190px;
   }
 
-  .fh5co-slider-outer .carousel-right-arrow {
+  .test-slider-outer .carousel-right-arrow {
     right: 50px;
     font-size: 50px;
     bottom: 190px;
   }
 
-  .fh5co-reviews-inner .col-sm-5 {
+  .test-reviews-inner .col-sm-5 {
     -ms-flex: 0 0 75%;
     flex: 0 0 75%;
     width: 75%;
@@ -852,25 +864,25 @@ html {
     text-align: center;
   }
 
-  .fh5co-slider-outer .item img {
+  .test-slider-outer .item img {
     height: 300px;
   }
 
-  .fh5co-reviews-outer {
+  .test-reviews-outer {
     height: auto;
   }
 
-  .fh5co-reviews-outer .fh5co-reviews-inner {
+  .test-reviews-outer .test-reviews-inner {
     margin-top: 50px;
   }
 
-  .fh5co-bottom-outer {
+  .test-bottom-outer {
     background-position: center bottom;
     overflow: hidden;
     height: auto;
   }
 
-  .fh5co-bottom-inner {
+  .test-bottom-inner {
     overflow: hidden;
     padding-bottom: 50px;
     text-align: center;
@@ -883,7 +895,7 @@ html {
     overflow-x: hidden;
   }
 
-  .fh5co-bottom-outer .fh5co-bottom-inner .col-sm-6 p {
+  .test-bottom-outer .test-bottom-inner .col-sm-6 p {
     width: 90%;
     margin: 0 auto;
   }
@@ -927,24 +939,25 @@ html {
     margin-top: 100px;
   }
 }
+
 @media screen and (max-width: 520px) {
-  #fh5co-hero-wrapper {
+  #test-hero-wrapper {
     height: 900px;
   }
 
-  .fh5co-hero-inner > h1 {
+  .test-hero-inner > h1 {
     font-size: 40px;
   }
 
-  .fh5co-hero-inner > p {
+  .test-hero-inner > p {
     width: 100%;
   }
 
-  .fh5co-hero-inner {
+  .test-hero-inner {
     text-align: center;
   }
 
-  .fh5co-hero-inner .fh5co-hero-smartphone {
+  .test-hero-inner .test-hero-smartphone {
     height: 450px;
     top: 420px;
     margin-top: 70px;
@@ -954,20 +967,20 @@ html {
     font-size: 22px;
   }
 
-  .fh5co-slider-outer .carousel-left-arrow {
+  .test-slider-outer .carousel-left-arrow {
     left: 0;
   }
 
-  .fh5co-slider-outer .carousel-right-arrow {
+  .test-slider-outer .carousel-right-arrow {
     right: 0;
   }
 
-  .fh5co-slider-inner {
+  .test-slider-inner {
     margin-top: 50px;
     margin-bottom: 30px;
   }
 
-  .fh5co-reviews-inner .col-sm-5 {
+  .test-reviews-inner .col-sm-5 {
     -ms-flex: 0 0 90%;
     flex: 0 0 90%;
     width: 90%;
@@ -976,7 +989,7 @@ html {
     text-align: center;
   }
 
-  .fh5co-advantages-outer .span-perfect {
+  .test-advantages-outer .span-perfect {
     margin-top: 80px;
     font-size: 18px;
     margin-bottom: 15px;
@@ -985,7 +998,7 @@ html {
     text-align: center;
   }
 
-  .fh5co-advantages-outer .span-features {
+  .test-advantages-outer .span-features {
     font-size: 24px;
     display: block;
     width: 100%;
