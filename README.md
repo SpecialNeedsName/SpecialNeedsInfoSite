@@ -1,4 +1,4 @@
 # SpecialNeedsSite
-Info website for the Special Needs thing made by **Anshul Gupta**
+Info website for the Auesome App and Packages made by **Anshul Gupta**
 <br>
-https://specialneedsname.github.io/SpecialNeedsSite/
+https:/auesome.github.io
