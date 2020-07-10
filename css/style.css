@@ -584,6 +584,16 @@ html {
   -webkit-border-radius: 25px;
 }
 
+.lessPopoutImage {
+  border-color: #234197;
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  border-radius: 25px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+}
+
 .borderConnect {
   border-left-color: #234197;
   border-right-color: #234197;
