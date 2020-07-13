@@ -1,0 +1,22 @@
+{
+  "name": "specialneedsinfosite",
+  "version": "1.0.0",
+  "description": "Landing Page for our App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpecialNeedsName/SpecialNeedsInfoSite.git"
+  },
+  "author": "Anshul Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpecialNeedsName/SpecialNeedsInfoSite/issues"
+  },
+  "homepage": "https://github.com/SpecialNeedsName/SpecialNeedsInfoSite#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
