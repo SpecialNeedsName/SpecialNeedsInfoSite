@@ -1,1 +1,5 @@
-
+---
+deployment
+  tasks:
+    - export DEPLOYPATH=/home/oqfbbllj/public_html/
+    - /bin/cp -R images $DEPLOYPATH
