@@ -2,4 +2,4 @@
 deployment
   tasks:
     - export DEPLOYPATH=/home/oqfbbllj/public_html/
-    - /bin/cp -R auesome $DEPLOYPATH
+    - /repositories -R auesome $DEPLOYPATH
