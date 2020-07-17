@@ -574,14 +574,15 @@ html {
   margin-left: 10px;
 }
 
+/*? custom css! */
 .popoutImage {
   border-color: #234197;
   box-shadow: 10px 10px 5px #ccc;
   -moz-box-shadow: 10px 10px 5px #ccc;
   -webkit-box-shadow: 10px 10px 5px #ccc;
-  border-radius: 25px;
-  -moz-border-radius: 25px;
-  -webkit-border-radius: 25px;
+  border-radius: 37px;
+  -moz-border-radius: 37px;
+  -webkit-border-radius: 37px;
 }
 
 .lessPopoutImage {
@@ -589,9 +590,9 @@ html {
   box-shadow: 10px 10px 5px #ccc;
   -moz-box-shadow: 10px 10px 5px #ccc;
   -webkit-box-shadow: 10px 10px 5px #ccc;
-  border-radius: 25px;
-  -moz-border-radius: 25px;
-  -webkit-border-radius: 25px;
+  border-radius: 37px;
+  -moz-border-radius: 37px;
+  -webkit-border-radius: 37px;
 }
 
 .borderConnect {
