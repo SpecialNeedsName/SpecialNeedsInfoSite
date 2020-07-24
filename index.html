@@ -71,7 +71,7 @@
             <ul class="navbar-nav nav-items-center ml-auto mr-auto">
               <!-- <li class="nav-item active">
                 <a class="nav-link" href="#"
-                  >Home <span class="sr-only">(current)</span></a
+                  >Home <span class="sr-only">(current)</span></a 
                 >
               </li> -->
               <li class="nav-item">
@@ -420,10 +420,16 @@
                   class="img-float-left"
                   src="img/games.png"
                   alt="smartphone-1"
+                  style="margin-left: 105px;"
                 />
-                <span class="span-new">NEW</span>
-                <span class="span-free">Free</span>
+
+                <span style="margin-left: 105px;" class="span-free">Free</span>
               </div>
+              <span
+                style="margin-right: 130px; margin-top: 30px;"
+                class="span-new"
+                >NEW</span
+              >
             </div>
 
             <div
@@ -682,17 +688,16 @@
           >
             <div class="column-1-3">
               <h1>
-                <a style="color: white;" href="https://auesome.tech">AUesome</a>
+                <a
+                  style="color: white; cursor: pointer;"
+                  onclick="$('#test-hero-wrapper').goTo();return false;"
+                  >AUesome</a
+                >
               </h1>
             </div>
             <div class="column-2-3">
               <nav class="footer-nav">
                 <ul>
-                  <a
-                    href="#"
-                    onclick="$('#test-hero-wrapper').goTo();return false;"
-                    ><li>Home</li></a
-                  >
                   <a href="#" onclick="$('#test-features').goTo();return false;"
                     ><li>Features</li></a
                   >
@@ -700,8 +705,15 @@
                     ><li>Reviews</li></a
                   > -->
                   <a href="#" onclick="$('#test-download').goTo();return false;"
-                    ><li class="active">Download</li></a
+                    ><li>Download</li></a
                   >
+                  <a  target="_blank"href="https://auesome.tech/auesome"
+                  ><li>Demo</li></a
+                >
+                <a target="_blank" href="https://auesome.tech/team"
+                  ><li>Team</li></a
+                >
+                  </li>
                 </ul>
               </nav>
             </div>
@@ -725,6 +737,10 @@
                 <a target="_blank" href="https://www.github.com/auesome"
                   ><i class="fab fa-github"></i
                 ></a>
+                <a target="_blank" href="mailto:auesome.co@gmail.com"
+                ><i class="fab fa-envelope"></i
+              ></a>
+
               </div>
             </div>
           </div>
