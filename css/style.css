@@ -1,3 +1,9 @@
+/*?
+MY NAV
+*/
+
+/*main nav*/
+
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800");
 * {
   margin: 0px;
@@ -598,6 +604,18 @@ html {
 .borderConnect {
   border-left-color: #234197;
   border-right-color: #234197;
+}
+
+.update {
+  font-size: large;
+  background: rgb(248, 41, 41);
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ==========================================================================================================
