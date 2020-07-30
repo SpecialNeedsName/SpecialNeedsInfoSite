@@ -8144,7 +8144,7 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #866ec7; }
+  color: #007bff; }
   a:hover, a:focus {
     text-decoration: none !important;
     outline: none !important;
@@ -8209,7 +8209,7 @@ h1, h2, h3, h4, h5,
 #sidebar {
   min-width: 250px;
   max-width: 250px;
-  background: #866ec7;
+  background: #007bff;
   color: #fff;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -8302,11 +8302,11 @@ a[data-toggle="collapse"] {
   transition: all 0.3s; }
 
 .btn.btn-primary {
-  background: #866ec7;
-  border-color: #866ec7; }
+  background: #007bff;
+  border-color: #007bff; }
   .btn.btn-primary:hover, .btn.btn-primary:focus {
-    background: #866ec7 !important;
-    border-color: #866ec7 !important; }
+    background: #007bff !important;
+    border-color: #007bff !important; }
 
 .footer p {
   color: rgba(255, 255, 255, 0.5); }
