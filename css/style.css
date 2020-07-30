@@ -667,14 +667,15 @@ html {
   }
 
   .test-hero-inner .test-hero-smartphone {
-    position: absolute;
+    /* position: absolute;
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
     top: 270px;
     height: 460px;
-    margin-top: 110px;
+    margin-top: 110px; */
+    display: none;
   }
 
   .test-advantages-outer {

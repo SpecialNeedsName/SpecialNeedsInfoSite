@@ -1,0 +1,4 @@
+complete demo.html, make it interactive
+change color to blue
+it links to auesome.css and auesome.js 
+change it to auesome.html when you are done, and the other one auesomeold.html
