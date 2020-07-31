@@ -17,36 +17,36 @@
 $(window).on("hashchange", function () {
   hash = window.location.hash;
   console.log(hash);
-  if ((hash = "#home")) {
-    $("p").last().html("hello");
-    console.log("hello");
+  if (hash == "#home") {
+    console.log("works");
+    $("#title").text("AUesome Videos");
   }
   if (hash == "#clothespin") {
-    $("#clothespin").addClass("your_class");
-    $("p").last().html("hi");
+    $("#title").text("Clothespin Activity");
   }
   if (hash == "#spinner") {
-    $("p").last().html("hi");
+    $("#title").text("Spinner Activity");
   }
   if (hash == "#match") {
+    $("#title").text("Match Me!");
     $("p").last().html("hi");
   }
   if (hash == "#flashcards") {
-    $("p").last().html("hi");
+    $("#title").text("Emotions Flashcards");
   }
   if (hash == "#texture") {
-    $("p").last().html("hi");
+    $("#title").text("Texture Identification");
   }
   if (hash == "#threading") {
-    $("p").last().html("hi");
+    $("#title").text("Threading Activity");
   }
   if (hash == "#lego") {
-    $("p").last().html("hi");
+    $("#title").text("Lego Building");
   }
   if (hash == "#zoob") {
-    $("p").last().html("zoooob");
+    $("#title").text("ZOOB Building");
   }
   if (hash == "#contact") {
-    $("p").last().html("hi");
+    $("#title").text("Contact");
   }
 });
