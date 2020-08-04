@@ -1,7 +1,5 @@
-//on load, hide this video
 $("#video").hide();
 
-//for nav bar extention and hide
 (function ($) {
   "use strict";
 
@@ -18,10 +16,9 @@ $("#video").hide();
   });
 })(jQuery);
 
-//text change on window
 $(window).on("hashchange", function () {
   hash = window.location.hash;
-  console.log(hash);
+
   if (hash == "#home") {
     $("#title").text("AUesome Videos");
     $("#body").html(
@@ -32,24 +29,28 @@ $(window).on("hashchange", function () {
   } else {
     $(".videos").hide();
   }
+
   if (hash == "#clothespin") {
     $("#title").text("Clothespin Activity");
     $("#body").html("In this activity, we will be using our clothespins.");
     $("#video").show();
     $("#video").prop("src", "https://www.youtube.com/embed/drlIj0OwLJY");
   }
+
   if (hash == "#spinner") {
     $("#title").text("Spinner Activity");
     $("#body").html("In this activity, we will be using our spinners.");
     $("#video").show();
     $("#video").prop("src", "https://www.youtube.com/embed/TEg59h_LfAc");
   }
+
   if (hash == "#match") {
     $("#title").text("Match Me!");
     $("#body").html("In this activity, we will be using our match me cards.");
     $("#video").show();
     $("#video").prop("src", "https://www.youtube.com/embed/fMYbWODfXNc");
   }
+
   if (hash == "#flashcards") {
     $("#title").text("Emotions Flashcards");
     $("#body").html(
@@ -58,6 +59,7 @@ $(window).on("hashchange", function () {
     $("#video").show();
     $("#video").prop("src", "https://www.youtube.com/embed/zBRMl3tR1F8");
   }
+
   if (hash == "#texture") {
     $("#title").text("Texture Identification");
     $("#body").html(
@@ -66,24 +68,28 @@ $(window).on("hashchange", function () {
     $("#video").show();
     $("#video").prop("src", "https://www.youtube.com/embed/x3HvF5WUB7g");
   }
+
   if (hash == "#threading") {
     $("#title").text("Threading Activity");
     $("#body").html("In this activity, we will be using threading kit.");
     $("#video").show();
     $("#video").prop("src", "https://www.youtube.com/embed/DnDrTzn88qE");
   }
+
   if (hash == "#lego") {
     $("#title").text("Lego Building");
     $("#body").html("In this activity, we will be using our legos.");
     $("#video").show();
     $("#video").prop("src", "https://www.youtube.com/embed/Jcbzh0jzERQ");
   }
+
   if (hash == "#zoob") {
     $("#title").text("ZOOB Building");
     $("#body").html("In this activity, we will be using our zoob blocks.");
     $("#video").show();
     $("#video").prop("src", "https://www.youtube.com/embed/8tnyApSL5-A");
   }
+
   if (hash == "#contact") {
     $("#title").text("Contact");
     $("#body").html(
