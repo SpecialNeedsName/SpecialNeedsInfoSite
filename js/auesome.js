@@ -22,12 +22,6 @@ $("#video").hide();
 $(window).on("hashchange", function () {
   hash = window.location.hash;
   console.log(hash);
-
-  $("iframe").each(function () {
-    var src = $(this).attr("src");
-    $(this).attr("src", src);
-  });
-
   if (hash == "#home") {
     $("#title").text("AUesome Videos");
     $("#body").html(
