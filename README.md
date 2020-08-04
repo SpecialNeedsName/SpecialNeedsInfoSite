@@ -1,4 +1,4 @@
-# AUesomeSite - UPDATE: this is the old site when we were hosted on github pages. Our new site (with backend) is no longer public. 
+# AUesomeSite
 
 Website for AUesome!
 <br>
