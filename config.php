@@ -1,7 +1,7 @@
 <?php
 
-$db_user = "oqfbbllj/auesome";
-$db_pass = "AUesome1";
-$db_name = "oqfbbllj/useraccounts";
+$dbusername = "oqfbbllj/auesome";
+$dbpassword = "AUesome1";
+$dbname = "oqfbbllj/useraccounts";
 
 $mysqli = new mysqli("localhost",$firstname,$lastname,$email,$password);
