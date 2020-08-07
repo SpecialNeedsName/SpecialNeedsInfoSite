@@ -93,7 +93,7 @@ $(window).on("hashchange", function () {
   if (hash == "#contact") {
     $("#title").text("Contact");
     $("#body").html(
-      "Contact us at aueosme.co@gmail.com or hi.anshulg@gmail.com for any improvements!"
+      "Thanks for using our video site! We are planning to transiation to an app soon, so be sure to sign up for future updates on our <a href='index.html'>home site</a>! Contact us at aueosme.co@gmail.com or hi.anshulg@gmail.com for any improvements!"
     );
     $("#video").hide();
     $(".videos").hide();
