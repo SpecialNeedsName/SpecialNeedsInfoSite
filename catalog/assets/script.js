@@ -26,6 +26,8 @@ $(window).on("hashchange", function () {
   $("#kit1").addClass("hideArea");
   $("#kit2").addClass("hideArea");
   $("#kit3").addClass("hideArea");
+  $("#free").addClass("hideArea");
+
   if (hash == "#kit1") {
     console.log("on kit 1");
     $("#kit1").removeClass("hideArea");
@@ -38,7 +40,10 @@ $(window).on("hashchange", function () {
   if (hash == "#kit3") {
     console.log("on kit 3");
     $("#kit3").removeClass("hideArea");
-
     // $("#kit1").removeClass("hideArea");
+  }
+  if (hash == "#free") {
+    console.log("on free kit");
+    $("#free").removeClass("hideArea");
   }
 });
