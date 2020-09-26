@@ -10909,23 +10909,6 @@ a[data-toggle="collapse"] {
   PAGES 
   =========================================================================== */
 
-.videoContain {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  padding-top: 75%;
-}
-.videoResponse {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
-}
-
 div#item {
   margin-bottom: 20px;
 }
@@ -10937,9 +10920,10 @@ div#item {
 #kitImage {
   border-radius: 5%;
   /* height: auto; */
-  /* width: 100%; */
+  width: 80%;
   padding-right: 0;
   margin-bottom: 20px;
+  border-color: black;
 }
 
 /* @media (max-width: 1400px) {
@@ -10957,3 +10941,7 @@ div#item {
 /* #kitDescription {
   padding-left: 100px;
 } */
+
+.hideArea {
+  display: none;
+}
