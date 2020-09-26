@@ -10926,6 +10926,34 @@ a[data-toggle="collapse"] {
   border: none;
 }
 
-#div .container {
-  font-size: 20px;
+div#item {
+  margin-bottom: 20px;
 }
+
+#descrption {
+  padding-bottom: 30px;
+}
+
+#kitImage {
+  border-radius: 5%;
+  /* height: auto; */
+  /* width: 100%; */
+  padding-right: 0;
+  margin-bottom: 20px;
+}
+
+/* @media (max-width: 1400px) {
+  #kitDescription {
+    padding-left: 200px;
+  }
+}
+
+@media (max-width: 720px) {
+  #kitDescription {
+    padding-left: 0px;
+  }
+} */
+
+/* #kitDescription {
+  padding-left: 100px;
+} */
