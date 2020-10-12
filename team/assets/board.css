@@ -131,9 +131,14 @@ section .section-title {
 .member {
   margin-bottom: 10px;
 }
-.img-fluid {
-  opacity: 0.4;
+/* .img-fluid {
+  opacity: 0.9;
 }
 .img-fluid:hover {
-  opacity: 0.6;
+  transition: 2;
+  opacity: 1;
+} */
+
+.card-text {
+  font-size: 13px;
 }
